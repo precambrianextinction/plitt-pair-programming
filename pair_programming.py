@@ -1,0 +1,9 @@
+# Mikah Plitt
+# Pair Programming
+# Function Prompt 2 - Change coordinates from polar to Cartesian
+
+import math
+def polar_to_cartesian(r, theta): 
+    x = r * math.cos(theta)
+    y = r * math.sin(theta)
+    return x, y
